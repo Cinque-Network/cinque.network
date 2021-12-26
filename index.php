@@ -1,8 +1,13 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<style>
+    .background-grey-extralight{
+        background-color: #EAEFF0;
+    }
+</style>
 <header>
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-            <div class="navbar-menu">
+    <nav class="navbar background-grey-extralight" role="navigation" aria-label="main navigation">
+            <div class="navbar-menu" style="margin:10px;">
                 <div class="navbar-start">
                     <a class="navbar-item">
                         Home
@@ -46,11 +51,6 @@
     </nav>
 </header>
 
-<style>
-    .background-grey-extralight{
-        background-color: #EAEFF0;
-    }
-</style>
-<body class="background-grey-extralight">
+<body>
 
 </body>
