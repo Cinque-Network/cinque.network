@@ -50,7 +50,10 @@
             </div>
     </nav>
 </header>
-
+<br>
+<br>
 <body>
-
+    <p class="title has-text-weight-bold has-text-centered">
+        Welcome to Cinque
+    </p>
 </body>
