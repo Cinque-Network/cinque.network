@@ -1,22 +1,29 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="./ext/initial-variables.sass">
 <style>
     .background-grey-extralight{
         background-color: #EAEFF0;
     }
+    .blackborder{
+        color: black; 
+    }
 </style>
 <header>
     <nav class="navbar background-grey-extralight" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <img src="./images/brand.png" width="60px" style="margin:5px">
+        </div>
             <div class="navbar-menu" style="margin:10px;">
                 <div class="navbar-start">
                     <a class="navbar-item">
-                        Home
+                        <span>Home</span>
                     </a>
                     <a class="navbar-item">
-                        Blockchain
+                        <span>Blockchain</span>
                     </a>
                     <a class="navbar-item">
-                        Currency
+                        <span>Currency</span>
                     </a>
                     <div class="navbar-end">
                         <div class="navbar-item">
@@ -56,4 +63,7 @@
     <p class="title has-text-weight-bold has-text-centered">
         Welcome to Cinque
     </p>
+    <div class="container">
+        <hr class="blackborder"></hr>
+    </div>
 </body>
