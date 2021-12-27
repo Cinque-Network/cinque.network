@@ -1,15 +1,11 @@
+<!DOCTYPE html>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="./ext/initial-variables.sass">
-<meta property="og:site_name" content="CinQue Network" />
-<meta property="og:site" content="https://cinque.network" />
-<meta property="og:title" content="CinQue Network" />
-<meta property="og:description" content="Cinque - A multi-algo fork of digibyte" />
-<meta property="og:image" content="./images/brand.png" />
-<meta property="og:url" content="https://cinque.network" />
-<meta property="og:type" content="website" />
-<title>Cinque Network</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CinQue Network" /><title>Cinque Network</title>
 <style>
     .background-grey-extralight {
         background-color: #EAEFF0;
@@ -30,15 +26,16 @@
         margin-left: 10px;
         background-color: black;
     }
+
     .hr3 {
         width: 30%;
         height: 5px;
         margin-left: auto;
         margin-right: auto;
-        background-color:aqua;
+        background-color: aqua;
     }
 </style>
-<header>
+<header class="is-mobile">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item is-active" href="/">
@@ -62,10 +59,11 @@
                 </a>
             </div>
             <div class="navbar-end">
-                <div class="navbar-item">
-                    <div class="buttons">
+                <--When socials are released put em here-->
+                    <div class="navbar-item">
+                        <div class="buttons">
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </nav>
@@ -73,7 +71,7 @@
 <br>
 <br>
 
-<body>
+<body class="is-mobile">
     <section>
         <p class="title has-text-centered">
             Cinque
@@ -82,61 +80,68 @@
             <hr>
         </div>
         <p class="is-size-5 has-text-centered" style="margin-left:30px;">
-            A decentralized coin <b>forked</b> from digibyte with <b>5</b> PoW (<b>Proof of Work</b>) algorithms. 
+            A decentralized coin <b>forked</b> from digibyte with <b>5</b> PoW (<b>Proof of Work</b>) algorithms.
         </p>
         <br>
         <p class="is-size-4 has-text-centered">
-            <b>So, what are the benifts of joining Cinque Network?</b>
+            <b>So, what are the benefits of joining Cinque Network?</b>
         </p>
         <div class="columns" style="margin:10px;">
             <div class="column is-size-5">
                 <ul class="is-shadow">
                     <li><span class="icon">
-                        <i class="far fa-signature"></i>
-                    </span>
-                    <span>Coin Name: <strong>Cinque</strong></span></li>
+                            <i class="far fa-signature"></i>
+                        </span>
+                        <span>Coin Name: <strong>Cinque</strong></span>
+                    </li>
                     <li><span class="icon"><i class="fas fa-sticky-note"></i></span>
-                    <span>Ticker: <strong>CIN</strong></span></li>
+                        <span>Ticker: <strong>CIN</strong></span>
+                    </li>
                     <li><span class="icon"><i class="fas fa-coins"></i></span>
-                    <span>Max Coins: <strong>5 Million</strong></span></li>
+                        <span>Max Coins: <strong>5 Million</strong></span>
+                    </li>
                     <li><span class="icon"><i class="fas fa-stopwatch"></i></span>
-                    <span>Block Time: <strong>10 Minutes</strong></span></li>
+                        <span>Block Time: <strong>10 Minutes</strong></span>
+                    </li>
                     <li><span class="icon"><i class="fas fa-code"></i></span>
-                    <span><span>Algorithms(PoW):</span> <span class="is-size-6"><br><b>Cuckatoo32</b> (GPU, ASIC),<br> <b>MYR-GRS</b>(ASIC), <br><b>Ghostrider</b> (CPU, GPU), <br><b>Keccak</b>(CPU, GPU, ASIC, FGPA) <br><b>HeavyHash</b>(CPU, GPU, FGPA, ASIC)</span></span>
+                        <span><span>Algorithms(PoW):</span> <span class="is-size-6"><br><b>Cuckatoo32</b> (GPU, ASIC),<br> <b>MYR-GRS</b>(ASIC), <br><b>Ghostrider</b> (CPU, GPU), <br><b>Keccak</b>(CPU, GPU, ASIC, FGPA) <br><b>HeavyHash</b>(CPU, GPU, FGPA, ASIC)</span></span>
                 </ul>
             </div>
             <div class="column is-two-thirds is-size-5">
                 <ul class="is-shadow">
                     <b>Why Else?</b>
                     <li><span class="icon"><i class="fas fa-desktop"></i></span>
-                    <span>On going development</span></li>
+                        <span>On going development</span>
+                    </li>
                     <li><span class="icon"><i class="far fa-balance-scale"></i></span>
-                    <span>Balanced Algorithms</span></li>
+                        <span>Balanced Algorithms</span>
+                    </li>
                     <li><span class="icon"><i class="far fa-book-open"></i></span>
-                    <span>Open Source</span></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="has-background-link has-text-white">
-        <p class="has-text-centered title has-text-white">
-            <br>
-            Coin Information
-        </p>
-        <div class="container">
-            <hr class="hr3">
-        </div>
-        <div class="columns">
-            <div class="column is-two-thirds is-size-5">
-                <ul class="is-shadow">
-                    <li style="margin-left:20px;">
-                        <span class="icon">
-                            <i class="fas fa-code-branch"></i>
-                        </span>
-                        <span><a class="has-text-white">DGB</a>-CIN hardfork</span>
+                        <span>Open Source</span>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
+    <section class="has-background-link has-text-white">
+        <br>
+        <p class="has-text-centered title has-text-white">
+            Links
+        </p>
+        <div class="container">
+            <hr class="hr3">
+        </div>
+        <nav class="level has-text-centered is-centered">
+            <div class="buttons are normal">
+                <a class="button" href="https://github.com/Cinque-Network/Cinque-Core/releases">
+                    <span class="icon"><i class="fal fa-download"></i></span>
+                    <span><b>Latest Release</b></span></a>
+
+                <a class="button is-primary is-light" href="https://miningpoolstats.stream/cinque"><span class="icon"><i class="fad fa-users"></i></span><span>Pools</span></a>
+            </div>
+            <br>
+        </nav>
+    </section>
 </body>
+
+</html>
