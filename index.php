@@ -71,7 +71,7 @@
             </hr>
         </div>
         <p class="subtitle">
-            <strong>Technical Specifiactions</strong>
+            <strong>Technical Specifictions</strong>
         </p>
         <p class="is-size-6">
             <span class="icon">
