@@ -34,6 +34,10 @@
         margin-right: auto;
         background-color: aqua;
     }
+	.margins{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 </style>
 <header class="is-mobile">
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -72,14 +76,14 @@
 <br>
 
 <body class="is-mobile">
-    <section>
+    <section class="margins">
         <p class="title has-text-centered">
             Cinque
         </p>
         <div class="container">
             <hr>
         </div>
-        <p class="is-size-5 has-text-centered" style="margin-left:30px;">
+        <p class="is-size-5 has-text-centered">
             A decentralized coin <b>forked</b> from digibyte with <b>5</b> PoW (<b>Proof of Work</b>) algorithms.
         </p>
         <br>
@@ -104,14 +108,14 @@
                         <span>Block Time: <strong>10 Minutes</strong></span>
                     </li>
                     <li><span class="icon"><i class="fas fa-code"></i></span>
-                        <span><span>Algorithms(PoW):</span> <span class="is-size-6"><br><b>Cuckatoo32</b> (GPU, ASIC),<br> <b>MYR-GRS</b>(ASIC), <br><b>Ghostrider</b> (CPU, GPU), <br><b>Keccak</b>(CPU, GPU, ASIC, FGPA) <br><b>HeavyHash</b>(CPU, GPU, FGPA, ASIC)</span></span>
+                        <span><span>Algorithms(PoW):</span> <span class="is-size-6"><br><b>Cuckatoo32</b> (GPU, ASIC),<br> <b>MYR-GRS</b>(ASIC), <br><b>Ghostrider</b> (CPU, GPU), <br><b>Keccak</b>(CPU, GPU, ASIC, FGPA) <br><b>HeavyHash</b>(CPU, GPU, FGPA)</span></span>
                 </ul>
             </div>
             <div class="column is-two-thirds is-size-5">
                 <ul class="is-shadow">
                     <b>Why Else?</b>
                     <li><span class="icon"><i class="fas fa-desktop"></i></span>
-                        <span>On going development</span>
+                        <span>Ongoing development</span>
                     </li>
                     <li><span class="icon"><i class="far fa-balance-scale"></i></span>
                         <span>Balanced Algorithms</span>
@@ -131,8 +135,8 @@
         <div class="container">
             <hr class="hr3">
         </div>
-        <nav class="level has-text-centered is-centered">
-            <div class="buttons are normal">
+        <nav class="level has-text-centered">
+            <div class="buttons are-centered are-normal is-centered">
                 <a class="button" href="https://github.com/Cinque-Network/Cinque-Core/releases">
                     <span class="icon"><i class="fal fa-download"></i></span>
                     <span><b>Latest Release</b></span></a>
