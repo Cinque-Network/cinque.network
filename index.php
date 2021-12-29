@@ -252,5 +252,3 @@
         </div>
     </section>
 </body>
-
-</html>
