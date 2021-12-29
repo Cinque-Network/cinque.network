@@ -242,7 +242,7 @@
                 <div class="box has-text-centered is-centered">
                     <span class="icon is-centered">
                         <br>
-                        <i class="fa-solid fa-1 fa-2x""></i>
+                        <i class="fa-solid fa-3 fa-2x""></i>
                     </span>
                     <hr class="hr4 is-centered has-text-centered">
                     <br>
