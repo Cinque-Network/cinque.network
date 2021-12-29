@@ -1,7 +1,5 @@
+
 <!DOCTYPE html>
-<?php
-    header("Location: ./undermaintainance.php")
-?>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -261,11 +259,6 @@
         </div>
         <br>
         <p class="subtitle has-text-centered">
-            <?php
-            $responses = array("Our plans end here! The community has yet to decide them!", "Lets finish these tasks before making more! Suggest more on our socials!", "Huh... I wonder where the rest of the roadmap is...", "Lets finish these tasks first! You can suggest more on our discord!", "Wow, these are a lot of tasks to complete!");
-            shuffle($responses);
-            echo "<b>$responses[0]</b>"
-            ?>
         </p>
         <br>
     </section>
@@ -279,11 +272,6 @@
         </div>
         <br>
         <p class="has-text-centered subtitle has-text-white">
-            <?php
-            $noexchanges = array("No exchanges at this time. Why dont you suggest one down below?", "We are a new coin! No exchanges for now. Why dont you suggest one down below?");
-            shuffle($noexchanges);
-            echo "<b>$noexchanges[0]</b>"
-            ?>
         </p>
         <div class="field container">
             <label class="label has-text-white">Email</label>
