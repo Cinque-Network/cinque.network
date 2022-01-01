@@ -1,6 +1,6 @@
-<?php 
-	// Uncomment this code to turn on maintainance mode
-	//header("Location: ./undermaintainance.php")
+<?php
+// Uncomment this code to turn on maintainance mode
+//header("Location: ./undermaintainance.php")
 ?>
 <!DOCTYPE html>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -113,10 +113,10 @@
                 <a class="navbar-item" href="https://github.com/revoxhere/">
                     <i class="fab fa-lg fa-github"></i></a></li>
                 </a>
-                    <div class="navbar-item">
-                        <div class="buttons">
-                        </div>
+                <div class="navbar-item">
+                    <div class="buttons">
                     </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -154,14 +154,14 @@
 <body class="is-mobile">
     <section class="margins">
         <p class="title has-text-centered">
-			<div class="is-hidden-desktop is-hidden-widescreen">
-				 <img src="https://servercdn.primitt.dev/images/brandwithname.png">	
-			</div>
-			<div class="is-hidden-mobile has-text-centered">
-				 <img src="https://servercdn.primitt.dev/images/brandwithname.png" width="150px">
-			
-			
-			</div>
+        <div class="is-hidden-desktop is-hidden-widescreen">
+            <img src="https://servercdn.primitt.dev/images/brandwithname.png">
+        </div>
+        <div class="is-hidden-mobile has-text-centered">
+            <img src="https://servercdn.primitt.dev/images/brandwithname.png" width="150px">
+
+
+        </div>
         </p>
         <div class="container">
             <hr>
@@ -294,30 +294,23 @@
         <br>
         <p class="has-text-centered subtitle has-text-white">
         </p>
-        <div class="field container">
-            <label class="label has-text-white">Email</label>
-            <div class="control">
-                <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" name="getemail" required>
-            </div>
-        </div>
-        <div class="field container">
-            <label class="label has-text-white">Exchange Website</label>
-            <div class="control">
-                <input class="input" type="text" placeholder="e.g. binance.com" name="getwebsite" required>
-            </div>
-        </div>
-        <div class="control container">
-            <button class="button is-primary" name="submitted">Submit</button>
+        <div class="has-text-centered">
+            <form action="getexchanges.php" method="get">
+                Email: <input type="text" name="name"><br>
+                Exchange: <input type="text" name="email"><br>
+                <br>
+                <input class="button is-rounded" type="submit">
+            </form>
         </div>
         <br>
     </section>
 </body>
 <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-		<strong>Cinque Network Website(v1)</strong>
-		<br>
-		Made with Bulma CSS
-    </p>
-  </div>
+    <div class="content has-text-centered">
+        <p>
+            <strong>Cinque Network Website(v1)</strong>
+            <br>
+            Made with Bulma CSS
+        </p>
+    </div>
 </footer>
