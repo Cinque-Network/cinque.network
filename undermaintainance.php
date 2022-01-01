@@ -6,7 +6,7 @@
 <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="./ext/initial-variables.sass">
 <meta charset="utf-8">
-<body class="has-background-warning-light">
+<body class="has-background-warning-light is-mobile">
     <br>
     <br>
     <br>

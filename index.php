@@ -1,4 +1,7 @@
-
+<?php 
+	// Uncomment this code to turn on maintainance mode
+	//header("Location: ./undermaintainance.php")
+?>
 <!DOCTYPE html>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
@@ -8,11 +11,11 @@
 <link rel="stylesheet" href="./ext/initial-variables.sass">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="CinQue Network" />
+<meta name="description" content="Cinque Network - A multi-algo coin forked from digibyte" />
 <title>Cinque Network</title>
 <div class="notification is-warning">
     <button class="delete"></button>
-    The website is currently <b>under development</b>. Some things <b>may not work</b> or <b>may be formatted wrong.</b> If you have any issue please report it to <a href="https://github.com/CinqueNetwork/cinque.network">the github</a>. Thank you, Priansh Mittra
+    The website is currently <b>under development</b>. Some things <b>may not work</b> or <b>may be formatted wrong.</b> If you have any issue please report it to <a href="https://github.com/CinqueNetwork/cinque.network">the github</a>. <br>Thank you, Priansh Mittra
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -97,8 +100,19 @@
                     <i class="fas fa-user" style="color:#00e7ff;"></i>&nbsp;Our Team
                 </a>
             </div>
-            <div class="navbar-end">
-                <--When socials are released put em here-->
+            <div class="navbar-end buttons has-addons">
+                <a class="navbar-item" href="https://twitter.com/">
+                    <i class="fab fa-lg fa-twitter"></i></a></li>
+                </a>
+                <a class="navbar-item" href="https://www.reddit.com/">
+                    <i class="fab fa-lg fa-reddit"></i></a></li>
+                </a>
+                <a class="navbar-item" href="https://discord.gg">
+                    <i class="fab fa-lg fa-discord"></i></a></li>
+                </a>
+                <a class="navbar-item" href="https://github.com/revoxhere/">
+                    <i class="fab fa-lg fa-github"></i></a></li>
+                </a>
                     <div class="navbar-item">
                         <div class="buttons">
                         </div>
@@ -140,7 +154,14 @@
 <body class="is-mobile">
     <section class="margins">
         <p class="title has-text-centered">
-            Cinque
+			<div class="is-hidden-desktop is-hidden-widescreen">
+				 <img src="https://servercdn.primitt.dev/images/brandwithname.png">	
+			</div>
+			<div class="is-hidden-mobile has-text-centered">
+				 <img src="https://servercdn.primitt.dev/images/brandwithname.png" width="150px">
+			
+			
+			</div>
         </p>
         <div class="container">
             <hr>
@@ -276,18 +297,27 @@
         <div class="field container">
             <label class="label has-text-white">Email</label>
             <div class="control">
-                <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" required>
+                <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" name="getemail" required>
             </div>
         </div>
         <div class="field container">
             <label class="label has-text-white">Exchange Website</label>
             <div class="control">
-                <input class="input" type="text" placeholder="e.g. binance.com" required>
+                <input class="input" type="text" placeholder="e.g. binance.com" name="getwebsite" required>
             </div>
         </div>
         <div class="control container">
-            <button class="button is-primary">Submit</button>
+            <button class="button is-primary" name="submitted">Submit</button>
         </div>
         <br>
     </section>
 </body>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+		<strong>Cinque Network Website(v1)</strong>
+		<br>
+		Made with Bulma CSS
+    </p>
+  </div>
+</footer>
