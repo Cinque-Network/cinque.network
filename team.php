@@ -1,6 +1,6 @@
-<?php 
-	// Uncomment this code to turn on maintainance mode
-	//header("Location: ./undermaintainance.php")
+<?php
+// Uncomment this code to turn on maintainance mode
+//header("Location: ./undermaintainance.php")
 ?>
 <!DOCTYPE html>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -109,10 +109,10 @@
                 <a class="navbar-item" href="https://github.com/revoxhere/">
                     <i class="fab fa-lg fa-github"></i></a></li>
                 </a>
-                    <div class="navbar-item">
-                        <div class="buttons">
-                        </div>
+                <div class="navbar-item">
+                    <div class="buttons">
                     </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -151,6 +151,17 @@
     <p class="subtitle has-text-centered">
         The amazing team that brings you <strong>cinque</strong>!
     </p>
-    
-    
+    <div class="tile is-ancestor" style="margin:10px">
+        <div class="tile is-vertical is-3">
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-primary">
+                        <p class="title has-text-centered">Helpful Crypto Miner</p>
+                        <p class="subtitle has-text-centered has-text-warning">Lead Developer | <span class="has-text-danger">Founder</span></p>
+
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
